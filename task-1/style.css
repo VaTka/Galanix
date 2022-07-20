@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flag {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.ukraine {
+    flex-direction: column;
+}
+
+.japan {
+    position: relative;
+    flex-direction: column;
+}
+
+.iceland {
+    position: relative;
+    flex-direction: column;
+}
+
+.czech {
+    position: relative;
+    flex-direction: column;
+}
+
+.color {
+    width: 100%;
+    height: 100%;
+}
+
+.vertical {
+    width: 50px;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.iceland .vertical {
+    left: 15%;
+}
+
+.red-vertical{
+    width: 25px;
+    z-index: 5;
+}
+
+.horizontal {
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+
+.red-horizontal{
+    height: 25px;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 50%;
+    height: 75%;
+    left: 25%;
+}
+
+.blue-triangle {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 150px solid blue;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.white {
+    background-color: white;
+}
+
+.red {
+    background-color: red;
+}
